@@ -1,0 +1,36 @@
+{
+  "name": "ctpux-blitz-marking-system",
+  "version": "1.0.0",
+  "description": "A resource for monitoring and evaluating the user's gaming abilities with the ability to form 'marks' on tanks.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "npx ts-node src/index.ts",
+    "test": "npx ts-node tests/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkJoij/ctpux-blitz-marking-system.git"
+  },
+  "keywords": [
+    "ctpux",
+    "blitz",
+    "marking",
+    "system",
+    "wot",
+    "tanks",
+    "blitz",
+    "wotblitz",
+    "tanksblitz"
+  ],
+  "author": "Dallas & P1ecful",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/DarkJoij/ctpux-blitz-marking-system/issues"
+  },
+  "homepage": "https://github.com/DarkJoij/ctpux-blitz-marking-system#readme",
+  "dependencies": {
+    "@types/node": "^20.14.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
